@@ -1,0 +1,101 @@
+body {
+    background-color: rgb(41, 40, 40);
+}
+.ed1 {
+    color: rgb(255, 81, 0);
+    font-size: 90px;
+    font-family: arial;
+}
+h1 {
+    color: white;
+    font-family: arial;
+}
+
+.header1 {
+    text-align: center;
+}
+.home {
+    color: white;
+    padding-right: 60px;
+}
+.about {
+    color: rgb(255, 81, 0);
+    
+}
+.about:active {
+    background-color: gray;
+}
+a {
+    color: rgb(255, 81, 0);
+    text-decoration: none;
+}
+.services {
+    color: white;
+    padding-bottom: 25px;
+}
+.nav1 ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    font-family: arial;
+}
+.nav2 ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    font-family: arial;
+    border-bottom: 2px solid rgb(255, 81, 0);
+}
+.text1 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: arial;
+    padding-top: 20px;
+}
+.buttons {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.subscribe::placeholder {
+    text-align: center;
+    font-family: arial;
+    font-size: 15px;
+    color: white;
+}
+.subscribe {
+    background-color: rgb(255, 81, 0);
+    width: 250px;
+    height: 35px;
+    border: none;
+    margin-bottom: 20px;
+}
+.subscribe:hover {
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    opacity: 0.7;
+}
+.email::placeholder {
+    font-family: arial;
+    font-size: 15px;
+}
+.email {
+    width: 250px;
+    height: 35px;
+    border: none;
+    margin-bottom: 10px;
+}
+.About-text {
+    background-color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+h3 {
+    font-family: arial;
+    font-weight: bold;
+}
+.paragraph1 {
+    font-family: arial;
+}
